@@ -6,16 +6,16 @@
 
 <p align="center">
   <a href="https://david-dm.org/walterradduso/electron-express-react-webpack-boilerplate">
-    <img alt="Dependency Status" src="https://david-dm.org/walterradduso/electron-react-webpack-boilerplate.svg?style=flat">
+    <img alt="Dependency Status" src="https://david-dm.org/walterradduso/electron-express-react-webpack-boilerplate.svg?style=flat">
   </a>
   <a href="https://david-dm.org/walterradduso/electron-express-react-webpack-boilerplate?type=dev">
-    <img alt="devDependency Status" src="https://david-dm.org/walterradduso/electron-react-webpack-boilerplate/dev-status.svg?style=flat">
+    <img alt="devDependency Status" src="https://david-dm.org/walterradduso/electron-express-react-webpack-boilerplate/dev-status.svg?style=flat">
   </a>
   <a href="http://opensource.org/licenses/MIT">
     <img alt="MIT License" src="https://img.shields.io/npm/l/express.svg">
   </a>
   <a href="https://github.com/walterradduso/electron-express-react-webpack-boilerplate/releases">
-    <img alt="Current release" src="https://img.shields.io/github/release/walterradduso/electron-react-webpack-boilerplate.svg">
+    <img alt="Current release" src="https://img.shields.io/github/release/walterradduso/electron-express-react-webpack-boilerplate.svg">
   </a>
 </p>
 
