@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.rawgit.com/walterradduso/electron-express-react-webpack-boilerplate/master/docs/images/electron-express-react-webpack-boilerplate.png" width="135" align="center">
+  <img src="https://cdn.jsdelivr.net/gh/walterradduso/electron-express-react-webpack-boilerplate@master/docs/images/electron-express-react-webpack-boilerplate.png" width="200" align="center">
   <br>
   <br>
 </p>
@@ -23,16 +23,16 @@
   <a href="https://paypal.me/walterradduso" rel="nofollow">
     <img src="https://img.shields.io/badge/Paypal-Donate-%2300457C.svg?logo=paypal&style=flat" alt="Paypal" data-canonical-src="https://img.shields.io/badge/Paypal-Donate-%2300457C.svg?logo=buy-me-a-coffee&style=flat" style="max-width:100%;">
   </a>
-  <a href="https://www.buymeacoffee.com/walterradduso" rel="nofollow">
-    <img src="https://img.shields.io/badge/Coffee-Donate-%23FF813F.svg?logo=buy-me-a-coffee&style=flat" alt="buymeacoffee" data-canonical-src="https://img.shields.io/badge/Coffee-Donate-%23FF813F.svg?logo=buy-me-a-coffee&style=flat" style="max-width:100%;">
-  </a>
 </p>
 
 ## Minimal Electron, Express, React and Webpack boilerplate
 
-This is an update of https://github.com/alexdevero/electron-react-webpack-boilerplate.
-
 Minimal Electron, Express, React and Webpack boilerplate to help you get started with building your next app.
+
+This project was a fork of [electron-react-webpack-boilerplate](https://github.com/alexdevero/electron-react-webpack-boilerplate).
+I keep some files used in that project, but I add and change things.
+
+In this project I add ExpressJs, removed PostCSS, added Sass and added Electron Builder to create the app package.
 
 ### Table of contents
 
@@ -41,6 +41,10 @@ Minimal Electron, Express, React and Webpack boilerplate to help you get started
 * [Usage](#usage)
 * [Change app title](#change-app-title)
 * [Generate packages](#generate-packages)
+* [Contact and Support](#contact-and-support)
+* [Licence](#license)
+
+---
 
 ### Install
 
@@ -60,6 +64,8 @@ or
 npm install
 ```
 
+---
+
 ### Configuration
 
 #### Server Port
@@ -71,6 +77,8 @@ cp .env.example .env
 ```
 
 Now you are able to change the port.
+
+---
 
 ### Usage
 
@@ -104,6 +112,8 @@ or
 npm run build
 ```
 
+---
+
 ### Change app title
 
 This boilerplate uses [HTML Webpack Plugin](https://github.com/jantimon/html-webpack-plugin#options) to generate the HTML file of the app. Changing app title is possible only through webpack configs, `webpack.build.config.js` and `webpack.dev.config.js`. App title can be changed by adding objects of options.
@@ -136,6 +146,8 @@ plugins: [
   })
 ]
 ```
+
+---
 
 ### Generate packages
 
@@ -190,3 +202,21 @@ or
 ```
 npm run package-linux
 ```
+
+---
+
+### Contact and Support
+
+I want your feedback! Here's a list of different ways to me and request help:
+* Report bugs and submit feature requests to [GitHub issues](https://github.com/walterradduso/electron-express-react-webpack-boilerplate/issues).
+
+If you feel generous and want to show some extra appreciation:
+
+[![Donate by PayPal][paypal-shield]][paypal]
+
+[paypal-shield]: https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg
+[paypal]: https://paypal.me/walterradduso
+
+### License
+
+MIT © [Walter Radduso](https://walterradduso.github.io/).
