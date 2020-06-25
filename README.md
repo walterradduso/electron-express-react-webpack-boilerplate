@@ -190,3 +190,14 @@ or
 ```
 npm run package-linux
 ```
+
+---
+
+### Contact and Support
+
+I want your feedback! Here's a list of different ways to me and request help:
+* Report bugs and submit feature requests to [GitHub issues](https://github.com/walterradduso/electron-express-react-webpack-boilerplate/issues).
+
+### License
+
+MIT © [Walter Radduso](https://walterradduso.github.io/).
