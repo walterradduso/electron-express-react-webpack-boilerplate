@@ -30,9 +30,12 @@
 
 ## Minimal Electron, Express, React and Webpack boilerplate
 
-This is an update of https://github.com/alexdevero/electron-react-webpack-boilerplate.
-
 Minimal Electron, Express, React and Webpack boilerplate to help you get started with building your next app.
+
+This project was a fork of [electron-react-webpack-boilerplate](https://github.com/alexdevero/electron-react-webpack-boilerplate).
+I keep some files used in that project, but I add and change things.
+
+In this project I add ExpressJs, removed PostCSS, added Sass and added Electron Builder to create the app package.
 
 ### Table of contents
 
@@ -41,6 +44,10 @@ Minimal Electron, Express, React and Webpack boilerplate to help you get started
 * [Usage](#usage)
 * [Change app title](#change-app-title)
 * [Generate packages](#generate-packages)
+* [Contact and Support](#contact-and-support)
+* [Licence](#license)
+
+---
 
 ### Install
 
@@ -60,6 +67,8 @@ or
 npm install
 ```
 
+---
+
 ### Configuration
 
 #### Server Port
@@ -71,6 +80,8 @@ cp .env.example .env
 ```
 
 Now you are able to change the port.
+
+---
 
 ### Usage
 
@@ -104,6 +115,8 @@ or
 npm run build
 ```
 
+---
+
 ### Change app title
 
 This boilerplate uses [HTML Webpack Plugin](https://github.com/jantimon/html-webpack-plugin#options) to generate the HTML file of the app. Changing app title is possible only through webpack configs, `webpack.build.config.js` and `webpack.dev.config.js`. App title can be changed by adding objects of options.
@@ -136,6 +149,8 @@ plugins: [
   })
 ]
 ```
+
+---
 
 ### Generate packages
 
@@ -197,6 +212,13 @@ npm run package-linux
 
 I want your feedback! Here's a list of different ways to me and request help:
 * Report bugs and submit feature requests to [GitHub issues](https://github.com/walterradduso/electron-express-react-webpack-boilerplate/issues).
+
+If you feel generous and want to show some extra appreciation:
+
+[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+
+[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
+[buymeacoffee]: https://www.buymeacoffee.com/walterradduso
 
 ### License
 
