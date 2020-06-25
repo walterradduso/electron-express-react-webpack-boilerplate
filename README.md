@@ -23,9 +23,6 @@
   <a href="https://paypal.me/walterradduso" rel="nofollow">
     <img src="https://img.shields.io/badge/Paypal-Donate-%2300457C.svg?logo=paypal&style=flat" alt="Paypal" data-canonical-src="https://img.shields.io/badge/Paypal-Donate-%2300457C.svg?logo=buy-me-a-coffee&style=flat" style="max-width:100%;">
   </a>
-  <a href="https://www.buymeacoffee.com/walterradduso" rel="nofollow">
-    <img src="https://img.shields.io/badge/Coffee-Donate-%23FF813F.svg?logo=buy-me-a-coffee&style=flat" alt="buymeacoffee" data-canonical-src="https://img.shields.io/badge/Coffee-Donate-%23FF813F.svg?logo=buy-me-a-coffee&style=flat" style="max-width:100%;">
-  </a>
 </p>
 
 ## Minimal Electron, Express, React and Webpack boilerplate
@@ -215,10 +212,10 @@ I want your feedback! Here's a list of different ways to me and request help:
 
 If you feel generous and want to show some extra appreciation:
 
-[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+[![Donate by PayPal][paypal-shield]][paypal]
 
-[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
-[buymeacoffee]: https://www.buymeacoffee.com/walterradduso
+[paypal-shield]: https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg
+[paypal]: https://paypal.me/walterradduso
 
 ### License
 
