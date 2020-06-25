@@ -1,0 +1,136 @@
+{
+  "name": "electron-express-react-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Minimal Electron, Express, React and Webpack boilerplate to help you get started with building your next app..",
+  "private": false,
+  "homepage": "",
+  "license": "MIT",
+  "author": {
+    "name": "Walter Radduso",
+    "email": "w.radduso@gmail.com",
+    "url": "https://github.com/walterradduso"
+  },
+  "bugs": {
+    "url": "https://github.com/walterradduso/electron-express-react-webpack-boilerplate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/walterradduso/electron-express-react-webpack-boilerplate.git"
+  },
+  "keywords": [
+    "app",
+    "boilerplate",
+    "electron",
+    "open",
+    "open-source",
+    "postcss",
+    "react",
+    "reactjs",
+    "source",
+    "webpack"
+  ],
+  "engines": {
+    "node": ">=9.0.0",
+    "npm": ">=5.0.0",
+    "yarn": ">=1.0.0"
+  },
+  "browserslist": [
+    "last 4 versions"
+  ],
+  "main": "electron.js",
+  "scripts": {
+    "prod": "cross-env NODE_ENV=production webpack --mode production --config webpack.build.config.js && electron --noDevServer .",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --hot --host 0.0.0.0 --config webpack.dev.config.js",
+    "build": "cross-env NODE_ENV=production webpack --mode production --config webpack.build.config.js",
+    "start-server": "nodemon server.js",
+    "start-all": "concurrently \"yarn start-server\" \"yarn start\"",
+    "postpackage": "electron-packager ./ --out=./builds",
+    "package": "yarn build && electron-builder build --publish never",
+    "package-all": "yarn build && electron-builder build -mwl",
+    "package-mac": "yarn build && electron-builder build --mac",
+    "package-linux": "yarn build && electron-builder build --linux",
+    "package-win": "yarn build && electron-builder build --win --x64"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "babili-webpack-plugin": "^0.1.2",
+    "concurrently": "^5.2.0",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.6.0",
+    "electron": "^9.0.5",
+    "electron-builder": "^22.7.0",
+    "electron-devtools-installer": "^3.0.0",
+    "electron-packager": "^14.2.1",
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "build": {
+    "productName": "electron-express-react-webpack-boilerplate",
+    "appId": "com.example.app",
+    "extends": null,
+    "directories": {
+      "buildResources": "resources",
+      "output": "release/${os}"
+    },
+    "files": [
+      "dist",
+      "electron.js",
+      "node_modules",
+      "package.json",
+      "server.js",
+      "src",
+      "splash"
+    ],
+    "dmg": {
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "icon": null,
+      "target": [
+        "deb",
+        "rpm",
+        "AppImage"
+      ],
+      "category": "Development"
+    },
+    "win": {
+      "icon": "dist/icon.ico",
+      "target": "NSIS"
+    }
+  }
+}

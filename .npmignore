@@ -1,0 +1,4 @@
+_ignore/
+builds/
+dist/
+.editorconfig

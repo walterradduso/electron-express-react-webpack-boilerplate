@@ -1,0 +1,9 @@
+.DS_Store
+.env
+.idea
+build
+dist
+node_modules
+npm-debug.log
+release
+yarn-error.log
