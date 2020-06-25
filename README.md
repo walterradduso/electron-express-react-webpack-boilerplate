@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.rawgit.com/walterradduso/electron-express-react-webpack-boilerplate/master/docs/images/electron-express-react-webpack-boilerplate.png" width="135" align="center">
+  <img src="https://cdn.jsdelivr.net/gh/walterradduso/electron-express-react-webpack-boilerplate@master/docs/images/electron-express-react-webpack-boilerplate.png" width="200" align="center">
   <br>
   <br>
 </p>
